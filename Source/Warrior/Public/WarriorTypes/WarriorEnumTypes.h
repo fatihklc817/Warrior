@@ -14,8 +14,11 @@ enum class EWarriorValidType : uint8
 	Invalid
 };
 
-class WarriorEnumTypes
+UENUM()
+enum class EWarriorSuccessType : uint8
 {
-public:
-	
+	Successful,
+	Failed
 };
+
+
